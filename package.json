@@ -5,6 +5,10 @@
   "repository": "https://github.com/usbpendrive/social-graphql",
   "author": "Fernando <ferry.fernando@gmail.com> (https://github.com/usbpendrive)",
   "license": "MIT",
+  "scripts": {
+    "babel-node": "babel-node",
+    "dev:api": "nodemon --exec npm run babel-node index.js"
+  },
   "dependencies": {
     "apollo-server-express": "^2.1.0",
     "axios": "^0.18.0",
